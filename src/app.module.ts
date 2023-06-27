@@ -30,7 +30,7 @@ import { Userproduct } from './userproduct/entities/userproduct.entity';
         Product,
         Userproduct,
       ],
-      synchronize: JSON.parse(process.env.SYNCHRONIZE)
+      synchronize: false
     }),
     AuthenticationModule, 
     UserModule, 
