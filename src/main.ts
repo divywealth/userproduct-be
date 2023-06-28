@@ -7,6 +7,9 @@ async function bootstrap() {
   app.enableCors({
     origin: [
       'http://localhost:3000',
+      'https://user-cart-task.netlify.app',
+      'http://user-cart-task.netlify.app'
+
     ],
     methods: ['POST', 'PUT', 'DELETE', 'GET'],
     allowedHeaders: ['Content-Type', 'Authorization'],
